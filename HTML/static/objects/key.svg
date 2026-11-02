@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#edf2f6"/><stop offset="1" stop-color="#cdd9e3"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7d77b"/><stop offset=".45" stop-color="#c9a64a"/><stop offset="1" stop-color="#8b6c21"/>
+    </linearGradient>
+    <filter id="s" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#2f3c4a" flood-opacity=".22"/>
+    </filter>
+  </defs>
+  <rect width="640" height="480" fill="url(#bg)"/>
+  <circle cx="100" cy="100" r="118" fill="#ffffff" opacity=".38"/>
+  <circle cx="540" cy="390" r="100" fill="#b4c4d2" opacity=".3"/>
+  <ellipse cx="320" cy="404" rx="152" ry="24" fill="#2b3743" opacity=".16"/>
+  <g filter="url(#s)">
+    <circle cx="238" cy="190" r="54" fill="none" stroke="url(#metal)" stroke-width="20"/>
+    <path d="M282 218l70 70M236 238l48 90" stroke="#9aa5ad" stroke-width="14" stroke-linecap="round"/>
+    <path d="M344 280l74 74" stroke="url(#metal)" stroke-width="26" stroke-linecap="round"/>
+    <path d="M410 346l38 38M410 346l-8 44M410 346l44 8" stroke="url(#metal)" stroke-width="14" stroke-linecap="round"/>
+    <path d="M276 298l70 70" stroke="url(#metal)" stroke-width="24" stroke-linecap="round"/>
+    <path d="M338 360l30 30M338 360l-6 38M338 360l38 6" stroke="url(#metal)" stroke-width="12" stroke-linecap="round"/>
+  </g>
+</svg>

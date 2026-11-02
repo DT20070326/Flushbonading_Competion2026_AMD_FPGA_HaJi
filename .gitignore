@@ -1,0 +1,27 @@
+# ---- 构建产物 ----
+ESP32/.pio/
+STM32/Objects/
+STM32/Listings/
+
+# ---- 用户/IDE 私有配置 ----
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+STM32/Project.uvguix.*
+*.uvguix.*
+
+# ---- 系统文件 ----
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ---- 日志/临时文件 ----
+*.log
+*.tmp
+~$*
+*.bak
+
+# ---- 本地凭据（不入库，模板见同目录 .example 文件）----
+ESP32/include/secrets.h
+HTML/utils/secret.js

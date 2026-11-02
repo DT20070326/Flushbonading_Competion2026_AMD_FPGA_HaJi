@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e6f2fb"/><stop offset="1" stop-color="#c4dced"/>
+    </linearGradient>
+    <linearGradient id="carton" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/><stop offset=".55" stop-color="#f7fbff"/><stop offset="1" stop-color="#dbe8f3"/>
+    </linearGradient>
+    <linearGradient id="band" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#42a5f5"/><stop offset="1" stop-color="#1565c0"/>
+    </linearGradient>
+    <filter id="s" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#274663" flood-opacity=".22"/>
+    </filter>
+  </defs>
+  <rect width="640" height="480" fill="url(#bg)"/>
+  <circle cx="112" cy="90" r="120" fill="#ffffff" opacity=".38"/>
+  <circle cx="540" cy="388" r="100" fill="#a8c8e1" opacity=".32"/>
+  <ellipse cx="320" cy="410" rx="140" ry="24" fill="#294863" opacity=".16"/>
+  <g filter="url(#s)">
+    <path d="M238 154l82-58 82 58v246H238z" fill="url(#carton)"/>
+    <path d="M238 154h164l-16 38h-132z" fill="#eef5fb"/>
+    <path d="M268 100l52-4 52 58-52 30z" fill="#ffffff" opacity=".55"/>
+    <path d="M258 268h124v84H258z" fill="url(#band)"/>
+    <path d="M286 296h68M286 318h40" stroke="#ffffff" stroke-width="8" stroke-linecap="round" opacity=".8"/>
+    <path d="M320 224c-18-18-44-6-44 16 0 23 44 48 44 48s44-25 44-48c0-22-26-34-44-16z" fill="#42a5f5" opacity=".85"/>
+  </g>
+</svg>

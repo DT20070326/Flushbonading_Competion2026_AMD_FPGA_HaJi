@@ -1,0 +1,40 @@
+{
+	"pages": [
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "智能仿生手",
+				"navigationBarBackgroundColor": "#0a2744",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/archive/archive",
+			"style": {
+				"navigationBarTitleText": "抓取档案",
+				"navigationBarBackgroundColor": "#0a2744",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/raw/raw",
+			"style": {
+				"navigationBarTitleText": "原始数据"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "智能仿生手",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#e8f0fb"
+	},
+	"uniIdRouter": {}
+}

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7efe3"/><stop offset="1" stop-color="#e5d4bd"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/><stop offset=".55" stop-color="#f7fafc"/><stop offset="1" stop-color="#dbe4ec"/>
+    </linearGradient>
+    <linearGradient id="tea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b9814b"/><stop offset="1" stop-color="#8a5a31"/>
+    </linearGradient>
+    <filter id="s" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#6b4f33" flood-opacity=".22"/>
+    </filter>
+  </defs>
+  <rect width="640" height="480" fill="url(#bg)"/>
+  <circle cx="520" cy="80" r="130" fill="#ffffff" opacity=".38"/>
+  <circle cx="90" cy="400" r="100" fill="#d7b98e" opacity=".35"/>
+  <ellipse cx="320" cy="407" rx="152" ry="26" fill="#7a5a38" opacity=".16"/>
+  <g filter="url(#s)">
+    <path d="M248 168h172l-14 194a44 44 0 0 1-44 40h-56a44 44 0 0 1-44-40z" fill="url(#body)"/>
+    <path d="M251 188h166l-4 46H255z" fill="url(#tea)" opacity=".92"/>
+    <path d="M419 218c38 0 58 26 54 58-4 33-30 56-66 56l4-26c24 0 40-14 42-32 2-17-9-30-30-30z" fill="url(#body)"/>
+    <path d="M268 218h132" stroke="#ffffff" stroke-width="7" stroke-linecap="round" opacity=".55"/>
+    <path d="M296 153c-14-18 14-28 0-48M340 148c-16-20 16-30 0-52M384 153c-14-18 14-28 0-48" stroke="#ffffff" stroke-width="7" stroke-linecap="round" opacity=".7"/>
+  </g>
+</svg>

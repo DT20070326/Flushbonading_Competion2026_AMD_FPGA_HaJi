@@ -1,0 +1,11 @@
+# 让 Git 自动识别文本/二进制，避免 Windows 换行符破坏模型、视频等文件
+* text=auto
+
+*.onnx   binary
+*.pt     binary
+*.pth    binary
+*.mp4    binary
+*.SLDPRT binary
+*.eprj2  binary
+*.uvprojx binary
+*.uvoptx binary

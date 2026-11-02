@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eaf1fb"/><stop offset="1" stop-color="#c9d9ee"/>
+    </linearGradient>
+    <linearGradient id="jar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f5b45b"/><stop offset=".5" stop-color="#e9962f"/><stop offset="1" stop-color="#c97715"/>
+    </linearGradient>
+    <linearGradient id="cap" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#dce5ee"/>
+    </linearGradient>
+    <filter id="s" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#28466d" flood-opacity=".22"/>
+    </filter>
+  </defs>
+  <rect width="640" height="480" fill="url(#bg)"/>
+  <circle cx="540" cy="90" r="120" fill="#ffffff" opacity=".4"/>
+  <circle cx="90" cy="390" r="96" fill="#9db9d9" opacity=".32"/>
+  <ellipse cx="320" cy="410" rx="122" ry="24" fill="#2a4364" opacity=".16"/>
+  <g filter="url(#s)">
+    <rect x="236" y="152" width="168" height="250" rx="34" fill="url(#jar)"/>
+    <rect x="246" y="112" width="148" height="62" rx="18" fill="url(#cap)"/>
+    <rect x="246" y="158" width="148" height="16" rx="8" fill="#ffffff" opacity=".28"/>
+    <rect x="266" y="224" width="108" height="112" rx="14" fill="#fff8ec"/>
+    <path d="M320 248v64M288 280h64" stroke="#d9821e" stroke-width="18" stroke-linecap="round"/>
+    <rect x="278" y="354" width="84" height="10" rx="5" fill="#ffffff" opacity=".6"/>
+  </g>
+</svg>

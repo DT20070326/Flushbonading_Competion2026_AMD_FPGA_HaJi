@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e7f3e6"/><stop offset="1" stop-color="#c6dfc8"/>
+    </linearGradient>
+    <radialGradient id="fruit" cx=".36" cy=".3" r=".78">
+      <stop offset="0" stop-color="#ff7a72"/><stop offset=".55" stop-color="#e63946"/><stop offset="1" stop-color="#a7162b"/>
+    </radialGradient>
+    <filter id="s" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#244f2d" flood-opacity=".24"/>
+    </filter>
+  </defs>
+  <rect width="640" height="480" fill="url(#bg)"/>
+  <circle cx="120" cy="90" r="120" fill="#ffffff" opacity=".32"/>
+  <circle cx="550" cy="390" r="110" fill="#8fbd97" opacity=".3"/>
+  <ellipse cx="320" cy="408" rx="142" ry="25" fill="#2d5536" opacity=".16"/>
+  <g filter="url(#s)">
+    <path d="M320 164c-18-22-62-32-100-10-54 32-60 122-16 180 30 40 68 54 92 40 12-7 20-7 32 0 24 14 62 0 92-40 44-58 38-148-16-180-38-22-82-12-100 10z" fill="url(#fruit)"/>
+    <path d="M314 158c-2-34 8-54 30-68" stroke="#6d4c33" stroke-width="16" stroke-linecap="round"/>
+    <path d="M344 102c34-30 80-22 92 4-26 30-72 32-92-4z" fill="#4f9a57"/>
+    <path d="M344 104c22 6 44 6 64 0" stroke="#2f6e3d" stroke-width="4" stroke-linecap="round" opacity=".5"/>
+    <ellipse cx="244" cy="268" rx="34" ry="64" fill="#ffffff" opacity=".18" transform="rotate(-28 244 268)"/>
+  </g>
+</svg>
